@@ -32,5 +32,10 @@ namespace CRUDAlumnoEF.Models
         [Display(Name = "Correo electrónico")]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+
+        [Required]
+        [Display(Name = "Sitio web")]
+        [DataType(DataType.Url)]
+        public string Url { get; set; }
     }
 }

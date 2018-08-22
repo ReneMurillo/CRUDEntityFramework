@@ -115,7 +115,6 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
-    <Content Include="Views\Alumnos\Create.cshtml" />
     <Content Include="Views\Alumnos\Details.cshtml" />
     <Content Include="Views\Alumnos\Edit.cshtml" />
     <Content Include="Views\Alumnos\Delete.cshtml" />
@@ -135,6 +134,14 @@
     <Compile Include="Migrations\201808201501134_Validaciones.Designer.cs">
       <DependentUpon>201808201501134_Validaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808222133513_CampoNuevo.cs" />
+    <Compile Include="Migrations\201808222133513_CampoNuevo.Designer.cs">
+      <DependentUpon>201808222133513_CampoNuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808222140335_CambioTipoDatoURL.cs" />
+    <Compile Include="Migrations\201808222140335_CambioTipoDatoURL.Designer.cs">
+      <DependentUpon>201808222140335_CambioTipoDatoURL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Alumno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -146,6 +153,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Alumnos\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Alumnos\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -162,6 +170,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808201501134_Validaciones.resx">
       <DependentUpon>201808201501134_Validaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808222133513_CampoNuevo.resx">
+      <DependentUpon>201808222133513_CampoNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808222140335_CambioTipoDatoURL.resx">
+      <DependentUpon>201808222140335_CambioTipoDatoURL.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
